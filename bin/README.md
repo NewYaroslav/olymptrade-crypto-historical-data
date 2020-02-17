@@ -79,7 +79,7 @@ xqhtools convert_csv path_storage ..\storage\AUDCAD path_csv ..\csv\AUDCAD1.csv 
 xqhtools convert_storage path_storage ..\storage\AUDCAD.qhs4 path_csv ..\csv\AUDCAD1.csv -gmtcet -m4 -sbc
 ```
 
-## Программа iolymp-trade-downloader
+## Программа olymp-trade-downloader
 
 Данная программа скачивает котировки брокера [olymptrade](https://olymptrade.com/).
 
@@ -94,7 +94,11 @@ xqhtools convert_storage path_storage ..\storage\AUDCAD.qhs4 path_csv ..\csv\AUD
 
 ### Быстрое использование
 
-Активируйте режим разработчика в браузере Chrome. Подключите расширение *olymp-trade-bridge* в браузер, настройте порт (по умолчанию он равен 8080). Запустите *bat-файл* *run.bat*, после чего дожтиесь завершения работы программы. По умолчанию программа скачает все доступные данные.
+Активируйте режим разработчика в браузере Chrome. Подключите расширение *olymp-trade-bridge* в браузер, настройте порт (по умолчанию он равен 8080).
+
+![extensions_1](../doc/extensions_1.png)
+
+Запустите *bat-файл* *run.bat*, после чего дожтиесь завершения работы программы. По умолчанию программа скачает все доступные данные.
 
 ### Параметры программы
 
